@@ -2,5 +2,6 @@
   "id": "5fd82e4e-c0ae-4771-a9d5-e18e3df32d65",
   "name": "savings account",
   "balance": 1000.0,
-  "currency": "PLN"
+  "currency": "PLN",
+  "cards": []
 }

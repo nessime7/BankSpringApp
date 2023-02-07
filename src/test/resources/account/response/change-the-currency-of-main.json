@@ -2,5 +2,25 @@
   "id": "fc35ad28-91fc-449b-af3e-918417266f9d",
   "name": "main account",
   "balance": 10000.1,
-  "currency": "EUR"
+  "currency": "EUR",
+  "cards": [
+    {
+      "id": "ac3a7a5a-1949-4182-b2ca-7f138bd19915",
+      "accountId": "fc35ad28-91fc-449b-af3e-918417266f9d",
+      "name": "Sara",
+      "surname": "Przebinda",
+      "maxLimit": 100.0,
+      "maxDebet": 100.0,
+      "cardType": "CREDIT"
+    },
+    {
+      "id": "71781a31-ed7f-4127-9734-aa4c23cb74a7",
+      "accountId": "fc35ad28-91fc-449b-af3e-918417266f9d",
+      "name": "Sara",
+      "surname": "Przebinda",
+      "maxLimit": 100.0,
+      "maxDebet": 100.0,
+      "cardType": "PAYMENT"
+    }
+  ]
 }

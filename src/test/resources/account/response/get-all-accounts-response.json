@@ -3,42 +3,87 @@
     "id": "fc35ad28-91fc-449b-af3e-918417266f9d",
     "name": "main account",
     "balance": 10000.1,
-    "currency": "PLN"
+    "currency": "PLN",
+    "cards": [
+      {
+        "id": "ac3a7a5a-1949-4182-b2ca-7f138bd19915",
+        "accountId": "fc35ad28-91fc-449b-af3e-918417266f9d",
+        "name": "Sara",
+        "surname": "Przebinda",
+        "maxLimit": 100.0,
+        "maxDebet": 100.0,
+        "cardType": "CREDIT"
+      },
+      {
+        "id": "71781a31-ed7f-4127-9734-aa4c23cb74a7",
+        "accountId": "fc35ad28-91fc-449b-af3e-918417266f9d",
+        "name": "Sara",
+        "surname": "Przebinda",
+        "maxLimit": 100.0,
+        "maxDebet": 100.0,
+        "cardType": "PAYMENT"
+      }
+    ]
   },
   {
     "id": "5fd82e4e-c0ae-4771-a9d5-e18e3df32d65",
     "name": "savings account",
     "balance": 0.0,
-    "currency": "PLN"
+    "currency": "PLN",
+    "cards": [
+    ]
   },
   {
     "id": "5f73cec7-6ac1-46ee-a203-794c35d8800c",
     "name": "EUR account",
     "balance": 50.0,
-    "currency": "EUR"
+    "currency": "EUR",
+    "cards": [
+      {
+        "id": "5e6e4432-1723-4e77-80d5-70cf1f83c80a",
+        "accountId": "5f73cec7-6ac1-46ee-a203-794c35d8800c",
+        "name": "Albert",
+        "surname": "Podraza",
+        "maxLimit": 100.0,
+        "maxDebet": 100.0,
+        "cardType": "PAYMENT"
+      },
+      {
+        "id": "bd8bcbc5-0a0b-47d0-8af9-2afc824a3a96",
+        "accountId": "5f73cec7-6ac1-46ee-a203-794c35d8800c",
+        "name": "Albert",
+        "surname": "Podraza",
+        "maxLimit": 100.0,
+        "maxDebet": 100.0,
+        "cardType": "CREDIT"
+      }]
   },
   {
     "id": "3d9c2f62-d66c-4e31-89a7-ccdf271a7591",
     "name": "USD account",
     "balance": 50.0,
-    "currency": "USD"
+    "currency": "USD",
+    "cards": []
   },
   {
     "id": "e62ee6a0-4549-4956-a0dd-685f23526961",
     "name": "CHF account",
     "balance": 50.0,
-    "currency": "CHF"
+    "currency": "CHF",
+    "cards": []
   },
   {
     "id": "7b93e505-2c0f-47a6-8ad6-6f6125c1c9a3",
     "name": "GBP account",
     "balance": 50.0,
-    "currency": "GBP"
+    "currency": "GBP",
+    "cards": []
   },
   {
     "id": "c7c6c077-931e-42f9-982a-8c836ab6b932",
     "name": "GBP account",
     "balance": 250.5,
-    "currency": "PLN"
+    "currency": "PLN",
+    "cards": []
   }
 ]
