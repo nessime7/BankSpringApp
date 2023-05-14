@@ -52,5 +52,4 @@ flyway {
 	locations = props['flyway.locations']
 	baselineOnMigrate = props['flyway.baselineOnMigrate']
 	cleanDisabled=false
-
 }
