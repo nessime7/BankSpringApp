@@ -1,13 +1,17 @@
 package com.BankSpringApp.account.controller;
 
-import org.springframework.stereotype.Controller;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
 
-@Controller
+@RestController
 public class ErrorController {
 
-    @RequestMapping("/error")
-    public String handleError() {
-        return "error";
+    @RequestMapping(value = "/error", method = RequestMethod.GET)
+    public ResponseEntity<String> handleError() {
+        String errorMessage = "This is a custom error message.";
+        return ResponseEntity.status(HttpStatus.NOT_FOUND).body(errorMessage);
     }
 }
