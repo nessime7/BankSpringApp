@@ -11,7 +11,6 @@ public class ErrorController {
 
     @RequestMapping(value = "/error", method = RequestMethod.GET)
     public ResponseEntity<String> handleError() {
-        // Handle the error and return a response
         String errorMessage = "This is a custom error message.";
         return ResponseEntity.status(HttpStatus.NOT_FOUND).body(errorMessage);
     }
